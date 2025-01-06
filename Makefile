@@ -1,15 +1,15 @@
 # Makefile
 install:
-	poetry install
+	uv sync
 
 brain-games:
-	poetry run brain-games
+	uv run brain-games
 
 build:
-	poetry build
+	uv build
 
 publish:
 	poetry publish --dry-run
 
 package-install:
-	python3 -m pip install --user dist/*.whl
+	uv tool install dist/*.whl
