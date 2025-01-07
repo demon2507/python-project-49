@@ -16,7 +16,7 @@ def is_even(name):
         if(answer == is_number_even):
             print('Correct!')
         else: 
-            print(f'{answer} is wrong answer ;(. Correct answer was {is_number_even}.\nLet\'s try again, {name}!')
+            print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{is_number_even}\'.\nLet\'s try again, {name}!')
             return
 
     print(f'Congratulations, {name}!')
