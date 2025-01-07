@@ -22,7 +22,12 @@ def is_even(name):
     print(f'Congratulations, {name}!')
 
 
-is_even(name)
+def main():    
+    is_even(name)
+
+if __name__ == '__main__':
+    main()
+
         
 
 
